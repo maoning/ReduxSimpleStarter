@@ -15,4 +15,4 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     {routes}
   </Provider>
-  , document.querySelector('.container'));
+  , document.querySelector('.root'));
